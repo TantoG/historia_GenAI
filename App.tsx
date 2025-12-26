@@ -4,6 +4,8 @@ import { SlideContent } from './components/SlideContent';
 import { ChatWidget } from './components/ChatWidget';
 import { SlideData } from './types';
 import PortadaHistGenAI from './src/images/Portada_Hist_GenAI.jpg';
+import LeCunImage from './src/images/lecun.jpg';
+import VaswaniImage from './src/images/vaswani.jpg';
 
 // --- CONTENT DATA ---
 const SLIDES: SlideData[] = [
@@ -30,7 +32,7 @@ const SLIDES: SlideData[] = [
         name: "Yann LeCun",
         role: "AT&T Labs",
         description: "Padre de las Redes Convolucionales",
-        // Image removed to use large emoji fallback
+        image: LeCunImage,
     }
   },
   {
@@ -54,7 +56,7 @@ const SLIDES: SlideData[] = [
         name: "Ashish Vaswani",
         role: "Google Brain",
         description: "Co-autor de Transformers",
-        // Removed broken image URL to default to emoji avatar 🧑‍🔬 which is cleaner
+        image: VaswaniImage,
     }
   },
   {
