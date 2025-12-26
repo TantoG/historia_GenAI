@@ -4,8 +4,8 @@ import { SlideContent } from './components/SlideContent';
 import { ChatWidget } from './components/ChatWidget';
 import { SlideData } from './types';
 import PortadaHistGenAI from './src/images/Portada_Hist_GenAI.jpg';
-import LeCunImage from './src/images/lecun.jpg';
-import VaswaniImage from './src/images/vaswani.jpg';
+import YannLeCunImage from './src/images/LeCun.jpg';
+import VaswaniImage from './src/images/Vaswani.jpeg';
 
 // --- CONTENT DATA ---
 const SLIDES: SlideData[] = [
@@ -32,7 +32,7 @@ const SLIDES: SlideData[] = [
         name: "Yann LeCun",
         role: "AT&T Labs",
         description: "Padre de las Redes Convolucionales",
-        image: LeCunImage,
+        image: YannLeCunImage,
     }
   },
   {
