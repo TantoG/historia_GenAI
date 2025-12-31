@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://TantoG.github.io/Tokens_didacticos_INICIAL",
+  "homepage": "https://tantog.github.io/historia_GenAI/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
